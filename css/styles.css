@@ -1,0 +1,353 @@
+/*body{
+  background-image: linear-gradient(250deg, #CCD5AE, #E9EDC9, #FEFAE0, #FAEDCD );*/
+ /* background-image: linear-gradient(250deg, #010307, #000206, #010307, #002d60, #c4786f );
+background-color: white;
+}*/
+/*Introduction Section*/
+#introduction{
+ /* background-color: #010307;*/
+  padding: 0 15%;
+  background-image: linear-gradient(180deg, #010307, #010307, #00327e );
+  background-color: white;  /* background-image: linear-gradient(200deg, #65647C, #8B7E74, #C7BCA1, #F1D3B3 );
+  animation: color 20s ease-in-out infinite;
+  background-size: 200% 200%;*/
+}
+
+.row-center{
+  margin-top: 5%;
+}
+
+.text-intro{
+  margin: auto;
+  padding-top: 30%;
+}
+
+.profile-img{
+  height: 80%;
+  padding-top: 5%;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.h5-auto{
+  margin: 4rem auto;
+  text-align: center;
+  border: 2px solid #c05f58;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: #fac6c2;
+}
+.nav-item{
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 18px 18px;
+}
+.nav-link{
+  color: whitesmoke;
+  font-size: 1.2rem;
+}
+.nav-link:hover{
+  color: #c4786f;
+}
+/*Projects Section*/
+#projects{
+  background-color: #c05f58;
+}
+
+.carousel{
+  padding: 8% 15%;
+}
+/*
+.carousel-control-prev-icon{
+  background-color: #F8C4B4;
+}
+
+.carousel-control-next-icon{
+  background-color: #F8C4B4;
+}
+*/
+.img-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  border-radius: 8px;
+}
+.img-center-skills{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-center-contact{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border-radius: 8px;
+}
+h3{
+  /*text-align: center;
+  margin-top: 150px;*/
+  margin-left: auto;
+  margin-right: auto;  
+  width: 50%;
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+}
+
+/*Visume Section*/
+
+#skills{
+  padding: 5% 15% 3%;
+  background-color: white;  
+  background-image: linear-gradient(360deg, #020408, #010307,#010819, #0a0d18 );
+}
+
+.video-player{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* FYP page*/
+#fyp-title{
+/*background-image: linear-gradient(360deg, #020408, #010307,#010819, #0a0d18);*/
+background-image: linear-gradient(125deg, #020408, #010307, #00327e, #c4786f );
+background-color: white;
+margin: auto;
+}
+.text{
+  width: 80%;
+  text-align: justify;
+}
+h2{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.img-fpga{
+  margin: auto;
+}
+.img-de1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+}
+.title1{
+  width: 50%;
+  margin: auto;
+}
+.col-lg-4{
+padding-top: 3rem;
+padding-bottom: 1rem;
+}
+.col-lg-4-color{
+  background-color: #CCD5AE;
+  /*background-image: linear-gradient(60deg, #2146C7, #42d4ed, #E6CBA8, #FDF0E0);
+  */background-image: linear-gradient(60deg, #D3756B, #F0997D, #E6CBA8, #FDF0E0);
+  border-radius: 50px;
+  margin-left: auto;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+.col-lg-8-color{
+  background-color: #FFC3A1;
+  border-radius: 50px;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.col-lg-6-margin-left{
+  background-color: #FFC3A1;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.col-lg-3-margin-right{
+  background-color: #CCD5AE;
+  background-image: linear-gradient(60deg, #D3756B, #F0997D, #E6CBA8, #FDF0E0);
+  border-radius: 50px;
+  text-align: center;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;  
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+.col-lg-3-margin-left{
+  margin-left: auto;
+}
+.col-lg-4-margin-right{
+  margin-right: auto;
+}
+.col-lg-6-margin{
+  margin-left: auto;
+  margin-right: auto
+}
+.col-lg-6-features{
+  width: 50%;
+}
+.col-lg-6-auto{
+  margin-left: auto;
+  margin-right: auto;
+  /*margin-top: 2rem;*/
+}
+.text-align-center{
+  text-align: center;
+}
+
+.text-align-justify{
+  text-align: justify;
+}
+/* FYP page - problem statement section*/
+#problem-statement{
+  margin-top: 0;
+  margin-bottom: 5rem;
+}
+.row-center{
+  margin-top: 0;
+}
+h4{
+  width: 80%;
+}
+.audio{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Montserrat', sans-serif;
+}
+.img-center-audio1{
+  display: block;
+  margin-left: auto;
+  width: 20%;
+  border-radius: 8px;
+}
+.img-center-audio2{
+  display: block;
+  margin-right: auto;
+  width: 20%;
+  border-radius: 8px;
+}
+.table-margin{
+  margin-left: auto;
+  margin-right: auto;
+}
+.table-bordered{
+  border: black;
+}
+.col-lg-8-margin{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+td{
+  padding: 2rem;
+}
+#aim_objectives{
+  margin-bottom: 5rem;
+}
+#result{
+  margin-bottom: 5rem;
+}
+.memory{
+  text-align: center;
+  margin: auto;
+}
+.img-center-memory{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border-radius: 3px;
+  width:50%;
+
+}
+.img-center-codec{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  margin-bottom: 3rem;
+  border-radius: 3px;
+}
+.table-bordered{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-header{
+  text-align: center;
+  font-weight: bold ;
+}
+p{
+  text-align: center;
+}
+.img-center-crs{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  margin-bottom: 3rem;
+  border-radius: 12px;
+}
+.col-lg-12-center{
+  margin-left: auto;
+  margin-right: auto;
+}
+embed{
+  width: 100%;
+  height: 1160px;
+  margin-bottom: 10rem;
+}
+.table-padding{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer{
+  background-color: #c05f58;
+  color: whitesmoke;
+  text-align: center;
+  /*margin-top: 5rem;*/
+}
+.footer-center{
+  margin: auto auto;
+}
+
+/* INTERNSHIP PAGE */
+#intern-title{
+  padding: 0 15%;
+  background-image: linear-gradient(180deg, #010307, #000206, #010307, #00327e, #c4786f );
+  background-color: white;  
+  margin-bottom: 0;
+}
+.page-intern{
+  /*background-image: linear-gradient(250deg, #CE7777, #E8C4C4, #F2E5E5 );
+  */
+  background-image: linear-gradient(125deg, #020408, #010307, #00327e, #c4786f );
+  display: white;  
+  margin-top: 0;
+}
+.card{
+  background-color: #c05f58;
+}
+.card-header{
+  background-color: #c05f58; 
+  color: whitesmoke;
+}
+.card-body{
+  background-color: #fac6c2; 
+  color: black;
+}
